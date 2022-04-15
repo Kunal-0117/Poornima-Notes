@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles/misc.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/card.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Poornima Notes</title>
+</head>
+
+<body>
+    <!-- header start -->
+    <nav>
+        <div class="navbar">
+            <i class='bx bx-menu'></i>
+            <div class="logo">
+                <a href="https://www.poornima.edu.in/" target="_blank" title="Offical Page of Poornima University"> <img
+                        src="imgs/poornima.png" alt=""></a>
+            </div>
+            <div class="nav-links">
+                <div class="sidebar-logo">
+                    <span class="logo-name">Notes</span>
+                    <i class='bx bx-x'></i>
+                </div>
+                <ul class="links">
+                    <li class="active-link"><span id="aboutKey">ABOUT</span></li>
+                    <li>
+                        <span>B-TECH</span>
+                        <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+                        <ul class="htmlCss-sub-menu sub-menu" id="btechKey">
+                            <li><span data-id="cse">Computer Science Engineering</span></li>
+                            <li><span data-id="mech">Mechanical Engineering</span></li>
+                            <li><span data-id="civil">Civil Engineering</span></li>
+                            <li><span data-id="ele">Electrical Engineering</span></li>
+                        </ul>
+                    </li>
+                    <li><span data-id="bca">BCA</span></li>
+                    <li><span data-id="bcom">B.COM</span></li>
+                    <li><span data-id="bba">BBA</span></li>
+                </ul>
+            </div>
+            <div class="search-box">
+                <i class='bx bx-search'></i>
+                <div class="input-box">
+                    <input type="text" placeholder="Search...">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- header end -->
+
+    <!-- floating iframe start -->
+    <div id="frame-wrapper" class="flex">
+        <iframe src="" name="extern" frameborder="1"></iframe>
+        <span id="close-frame" class="flex">X</span>
+    </div>
+    <!-- flaoting iframe end -->
+
+    <!-- content start -->
+
+    <main id="main">
+        <div id="about" class="container transit">
+            <div class="left">
+                <h2 class="title">ABOUT US</h2>
+                <p>Few people took a step forward to develop this website so that you people no longer run for notes,
+                    especially during exam time!<br>
+                    We made most of the efforts, can't you put some to study them?? <br><br>
+                    Don't hesitate, just go ahead!!!
+                </p>
+            </div>
+            <div class="right">
+                <div class="device">
+                    <div class="content flex">
+                        <h1>YOU CAN DO IT BABE!!</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- content end -->
+
+
+    <!-- footer start -->
+    <footer id="footer" class="flex">--
+        <div href="" class="typewrite" data-period="2000" data-type='[ "JYOTI", "KUNAL", "RAJ", "DiVYANSH" ]'>
+            <span class="wrap"></span>
+        </div>--
+    </footer>
+    <!-- footer end -->
+
+
+
+    <script src="scripts/header.js"></script>
+    <script src="scripts/typeit.js"></script>
+    <script src="scripts/script.js"></script>
+
+</body>
+
+</html>

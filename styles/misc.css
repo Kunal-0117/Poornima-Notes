@@ -1,0 +1,52 @@
+/* Text-selection color */
+
+::selection {
+    color: #fff;
+    background: #333;
+    text-shadow: none;
+}
+
+/* Custom Scroll-bar */
+
+/* For transparent background of scroll-bar */
+body {
+    overflow: overlay;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(68, 68, 68);
+    border-radius: 0.1rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+::-webkit-scrollbar-corner {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+/* Utility Classes */
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.flex-column{
+    flex-direction: column;
+}
